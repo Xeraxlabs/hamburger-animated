@@ -1,0 +1,93 @@
+/* Page resets and style starts here */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Page resets and ends ends here */
+
+
+
+/* Animated Hamburger component starts here */
+
+.hamburger {
+    width: 150px;
+    height: 150px;
+    background: tomato;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+
+    transition: all 0.4s ease;
+    transform: translateY(-20px);
+
+}
+
+.hamburger:hover {
+    transform: translateY(0);
+}
+
+.bars {
+    background: #fff;
+    height: 3px;
+    width: 60%;
+    position: relative;
+
+
+    display: flex;
+    justify-content: center;
+    transition: transform 0.4s ease;
+
+}
+
+.bars::before {
+    content: '';
+    width: 80%;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    transform: translateY(-20px);
+
+}
+
+.bars::after {
+    content: '';
+    width: 80%;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    transform: translateY(20px);
+
+}
+
+.crossburger {
+    background: black;
+}
+
+.crossburger .bars {
+    background: transparent;
+    transform: rotate(180deg);
+}
+
+.crossburger .bars::before {
+    transform: translateY(0px) rotate(45deg);
+}
+
+.crossburger .bars::after {
+    transform: translateY(0px) rotate(-45deg);
+
+}
+
+/* Animated Hamburger component ends here */
