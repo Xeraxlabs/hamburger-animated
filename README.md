@@ -50,8 +50,6 @@ For users that just want to use this component right away, just copy the HTML, C
     align-items: center;
     justify-content: center;
     cursor: pointer;
-
-
     transition: all 0.4s ease;
     transform: translateY(-20px);
 
@@ -66,8 +64,6 @@ For users that just want to use this component right away, just copy the HTML, C
     height: 3px;
     width: 60%;
     position: relative;
-
-
     display: flex;
     justify-content: center;
     transition: transform 0.4s ease;
@@ -91,7 +87,6 @@ For users that just want to use this component right away, just copy the HTML, C
     background: #fff;
     position: absolute;
     transform: translateY(8px);
-
 }
 
 .crossburger {
