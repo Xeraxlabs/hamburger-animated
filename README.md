@@ -45,7 +45,7 @@ For users that just want to use this component right away, just copy the HTML, C
 ### CSS
 
 ```css
-/* Animated Hamburger Component starts here */
+/* Animated Hamburger menu starts here */
 
 .hamburger {
     width: 45px;
@@ -112,7 +112,7 @@ For users that just want to use this component right away, just copy the HTML, C
     transform: translateY(0px) rotate(-45deg);
 
 }
-/* Animated Hamburger Component ends here */
+/* Animated Hamburger menu ends here */
 
 
 ```
