@@ -32,14 +32,20 @@ For users that just want to use this component right away, just copy the HTML, C
 ### HTML
 
 ```html
+<!--  Animated hamburger menu starts here -->
+
  <div class="hamburger" onclick="toggleClassName()">
      <div class="bars"></div>
  </div>
+ 
+ <!--  Animated hamburger menu ends here -->
+
 
 ```
 ### CSS
 
 ```css
+/* Animated Hamburger Component starts here */
 
 .hamburger {
     width: 45px;
@@ -106,17 +112,22 @@ For users that just want to use this component right away, just copy the HTML, C
     transform: translateY(0px) rotate(-45deg);
 
 }
+/* Animated Hamburger Component ends here */
 
 
 ```
 ### JS
 
 ```javascript
+// Animated hamburger menu starts here
 
 var hamburgerdiv = document.querySelector(".hamburger")
 function toggleClassName() {
     hamburgerdiv.classList.toggle('crossburger')
 }
+
+// Animated hamburger menu ends here
+
 
 ```
 
